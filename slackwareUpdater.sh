@@ -1,11 +1,55 @@
-##############################################
-############ Beginning of menu ###############
-##############################################
+#!/bin/bash
+#
+#                      ::::::
+#                    :+:  :+:
+#                   +:+   +:+
+#                  +#++:++#++:::::::
+#                 +#+     +#+     :+:
+#               ###       ###+:++#""
+#                         +#+
+#                         #+#
+#                         ###
+#
+#__author__ = "Alex Pujols"
+#__copyright__ = "TBD"
+#__credits__ = ["Alex Pujols"]
+#__license__ = "GPL"
+#__version__ = "1.0"
+#__maintainer__ = "Alex Pujols"
+#__email__ = "alex.pujols@gmail.com"
+#__status__ = "Prototype"
+#
+#: Title	:	slackwareUpdater
+#: Date		:	7-19-2019
+#: Description  :	{TBD}
+#: Options	:	{TBD}
+#: Notes	:	{TBD}
+#
+#
+# Import modules declarations
 
+# Function declarations
+
+# Function to test for valid input and convert to int for further processing
+
+# Function for TBD
+
+# Function for TBD
+
+# Function for TBD
+
+# Function for TBD
+
+
+# Main code begins
+
+# Set global vaiables
+
+# Begin main code execution
 while : ## Endless loop until (x) is selected
 	do ## Menu system
 		printf "\n#####################################################\n"
-		printf "##########   Slackware Updater Utility v3  ##########\n" 
+		printf "##########   Slackware Updater Utility v3  ##########\n"
 		printf "#####################################################\n"
 		printf "##                                                 ##\n"
 		printf "## Please select from the following options...     ##\n"
@@ -35,4 +79,4 @@ while : ## Endless loop until (x) is selected
 	esac
 	sleep 1s
 done
-
+# Main code execution ends
