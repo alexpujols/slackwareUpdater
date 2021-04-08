@@ -20,35 +20,36 @@
 #__status__ = "Prototype"
 #
 #: Title	:	slackwareUpdater
-#: Date		:	7-19-2019
+#: Date		:	4-10-2021
 #: Description  :	{TBD}
 #: Options	:	{TBD}
 #: Notes	:	{TBD}
 #
 #
 # Import modules declarations
-
+#
 # Function declarations
-
+#
 # Function to test for valid input and convert to int for further processing
-
+#
 # Function for TBD
-
+#
 # Function for TBD
-
+#
 # Function for TBD
-
+#
 # Function for TBD
-
-
+#
+#
 # Main code begins
 printf  "Attempting to update to the current version of Slackware...\n"
-sudo /usr/sbin/slackpkg update &&
-sudo /usr/sbin/slackpkg install-new &&
-sudo /usr/sbin/slackpkg upgrade-all &&
-
+sudo /usr/sbin/slackpkg update
+sudo /usr/sbin/slackpkg install-new
+sudo /usr/sbin/slackpkg upgrade-all
+sudo /usr/sbin/grub-mkconfig -o /boot/grub/grub.cfg
+#
 # Set global vaiables
-
+#
 # Begin main code execution
 #while : ## Endless loop until (x) is selected
 #	do ## Menu system
@@ -82,6 +83,6 @@ sudo /usr/sbin/slackpkg upgrade-all &&
 #		*) printf "\aInvalid selection: %c\n" "$input" >&2;;
 #	esac
 #	sleep 1s
-#one
-
+# one
+#
 # Main code execution ends
